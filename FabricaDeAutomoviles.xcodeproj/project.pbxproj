@@ -15,6 +15,9 @@
 		37C0B2E824A6AE93005506EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C0B2E624A6AE93005506EF /* LaunchScreen.storyboard */; };
 		37C0B2F324A6AE93005506EF /* FabricaDeAutomovilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0B2F224A6AE93005506EF /* FabricaDeAutomovilesTests.swift */; };
 		37C0B2FE24A6AE93005506EF /* FabricaDeAutomovilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0B2FD24A6AE93005506EF /* FabricaDeAutomovilesUITests.swift */; };
+		37C0B30C24A6B1D2005506EF /* Automovil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0B30B24A6B1D2005506EF /* Automovil.swift */; };
+		37C0B31024A6B8A7005506EF /* ViewControllerSegundaPantalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0B30F24A6B8A7005506EF /* ViewControllerSegundaPantalla.swift */; };
+		37C0B31224A6C294005506EF /* AutomovilElectrico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0B31124A6C294005506EF /* AutomovilElectrico.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		37C0B2F924A6AE93005506EF /* FabricaDeAutomovilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabricaDeAutomovilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C0B2FD24A6AE93005506EF /* FabricaDeAutomovilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricaDeAutomovilesUITests.swift; sourceTree = "<group>"; };
 		37C0B2FF24A6AE93005506EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C0B30B24A6B1D2005506EF /* Automovil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automovil.swift; sourceTree = "<group>"; };
+		37C0B30F24A6B8A7005506EF /* ViewControllerSegundaPantalla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSegundaPantalla.swift; sourceTree = "<group>"; };
+		37C0B31124A6C294005506EF /* AutomovilElectrico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomovilElectrico.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 				37C0B2DB24A6AE91005506EF /* AppDelegate.swift */,
 				37C0B2DD24A6AE91005506EF /* SceneDelegate.swift */,
 				37C0B2DF24A6AE91005506EF /* ViewController.swift */,
+				37C0B30B24A6B1D2005506EF /* Automovil.swift */,
+				37C0B31124A6C294005506EF /* AutomovilElectrico.swift */,
 				37C0B2E124A6AE91005506EF /* Main.storyboard */,
 				37C0B2E424A6AE93005506EF /* Assets.xcassets */,
 				37C0B2E624A6AE93005506EF /* LaunchScreen.storyboard */,
 				37C0B2E924A6AE93005506EF /* Info.plist */,
+				37C0B30F24A6B8A7005506EF /* ViewControllerSegundaPantalla.swift */,
 			);
 			path = FabricaDeAutomoviles;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C0B2E024A6AE91005506EF /* ViewController.swift in Sources */,
+				37C0B31224A6C294005506EF /* AutomovilElectrico.swift in Sources */,
+				37C0B31024A6B8A7005506EF /* ViewControllerSegundaPantalla.swift in Sources */,
 				37C0B2DC24A6AE91005506EF /* AppDelegate.swift in Sources */,
+				37C0B30C24A6B1D2005506EF /* Automovil.swift in Sources */,
 				37C0B2DE24A6AE91005506EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
